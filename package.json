@@ -1,6 +1,6 @@
 {
   "name": "bn-mentors",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Bloomington-Normal Mentors Website",
   "engines": {
     "node": ">=5.0"
@@ -25,7 +25,6 @@
   },
   "homepage": "https://github.com/Beg-in/bn-mentors#readme",
   "dependencies": {
-    "Fritz": "github:beg-in/Fritz",
     "gulp-begin": "Beg-in/gulp-begin",
     "gulp": "3.9.0",
     "handlebars": "4.0.5",
@@ -33,7 +32,6 @@
     "lodash": "3.10.1",
     "marked": "0.3.5",
     "nodemailer": "2.0.0",
-    "nodep": "0.2.3",
     "schedulejs": "^0.6.3"
   }
 }

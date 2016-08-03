@@ -59,14 +59,6 @@ module.exports = {
         fontsDev: path.join(dest, 'fonts')
     },
     env: env,
-    pg: {
-        user: process.env.PG_USER,
-        pass: process.env.PG_PASS,
-        host: process.env.PG_HOST,
-        port: process.env.PG_PORT,
-        db: process.env.PG_DB,
-        url: process.env.DATABASE_URL
-    },
     platform: process.platform,
     workers: process.env.WEB_CONCURRENCY || 1,
     isWin: process.platform === 'win32',
